@@ -1,0 +1,54 @@
+/* src/components/SearchBar.css */
+
+.search-bar-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+.search-results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.search-result-item {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-result-item span {
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
