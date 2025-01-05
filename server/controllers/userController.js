@@ -108,8 +108,8 @@ exports.getFriendRecommendations = async (req, res) => {
 };
 
 module.exports = {
-  getUser,
-  searchUsers,
+  getUser, 
+  searchUsers, 
   sendFriendRequest,
   handleFriendRequest,
   getFriendRecommendations,
